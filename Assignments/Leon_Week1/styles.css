@@ -1,0 +1,102 @@
+body {
+  background-color: #333;
+
+}
+
+div {
+  background-color: #eee;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #FFDFA3;
+  padding:10px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Homemade Apple', cursive;
+
+}
+
+footer {  background-color: white; font-size: 12px; }
+
+nav {
+  background-color: #FFDFA3;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+}
+
+nav a {
+  display: inline-block;
+  width: 120px;
+  background-color: #993B2A;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 1px;
+
+}
+
+nav a:hover { background-color: white; color: orange;}
+
+nav a.youarehere {background-color: orange;}
+
+main {
+  display: flex;
+}
+
+article {
+  width: 60%;
+  padding: 20px;
+  background-color: white;
+  font-family: 'Patrick Hand', cursive;
+}
+
+aside {
+  width: 70%;
+  padding: 20px;
+  background-color: white;
+  border-left: solid orange 2px;
+  font-family: 'Patrick Hand', cursive;
+
+}
+
+aside h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 22pt;
+
+}
+
+aside h3 {
+    font-size: 22pt;
+
+}
+
+img {
+  max-width: 100%;
+  }
+
+section {
+
+  background-color: white;
+  text-align: justify;
+  padding: 20px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+section h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 46px;
+  text-align: center;
+
+}
+
+section img {
+    position: relative;
+    bottom: 0;
+    right: -250px;
+}

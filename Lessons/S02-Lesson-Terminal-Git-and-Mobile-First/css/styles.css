@@ -1,0 +1,112 @@
+body {
+  background-color: #333;
+
+}
+
+.wrapper {
+  background-color: #eee;
+  width: 90%;
+  min-width: 320px;
+  max-width: 900px;
+
+  margin: auto;
+  padding:20px;
+
+}
+
+header {
+  padding: 20px;
+  background-color: teal;
+}
+@media screen and (min-width:500px){
+  body {
+    background-color: orange;
+  }
+}
+
+
+
+nav {
+    padding: 20px;
+    background-color: #006161;
+
+}
+
+main{
+  padding:20px;
+  background-color: white;
+
+}
+
+main a {
+  background-color: yellow;
+  padding: 20px;
+
+}
+/*----------------------------
+flex box */
+
+main {
+
+}
+main article{ padding: 20px; background-color: goldenrod;
+
+
+}
+
+main aside { padding: 20px; background-color: maroon;
+
+}
+
+@media screen and (min-width: 500px){
+  main { display: flex;  }
+  main article {width: 60% }
+  main aside {width: 40%}
+}
+
+footer{
+  padding: 20px;
+  background-color: teal;
+}
+
+
+/*----------------------------
+nav styles */
+
+nav {
+  text-align: center;
+
+
+}
+
+nav a {
+  display: block;
+  margin: auto;
+  width: 80%;
+  line-height: 50px;
+  background-color: #034646;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+  color: white;
+
+}
+
+nav a:hover { background-color: #021919;
+
+}
+
+nav a.theChosen{
+  background-color: maroon;
+
+}
+
+@media screen and (min-width:550px) {
+  nav a {
+    width: 100px;
+    display: inline-block;
+  }
+
+}
