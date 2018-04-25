@@ -24,6 +24,20 @@ header {
   }
 }
 
+@media screen and (min-width:700px){
+  body {
+    background-color: purple;
+  }
+}
+
+@media screen and (min-width:900px){
+  body {
+    background-color: black;
+  }
+}
+
+
+
 
 
 nav {

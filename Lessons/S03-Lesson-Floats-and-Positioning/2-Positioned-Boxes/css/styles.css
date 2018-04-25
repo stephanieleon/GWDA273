@@ -1,0 +1,49 @@
+body {
+	background-color: maroon;
+}
+
+
+/*---- general box styles: all boxes */
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: teal;
+	line-height: 100px;
+
+	text-align: center;
+	font-size: 30px;
+	color: white;
+
+	border: solid 10px black;
+}
+
+
+/*---- positionn specific boxes -----*/
+/*--- relative boxes --*/
+
+.rel{
+	background-color: red;
+}
+
+.abs{
+	background-color: green;
+
+}
+
+.fix {
+	background-color: blue;
+}
+
+
+.box4 {
+	background-color: purple;
+}
+
+.box2 {
+	background-color: pink;
+}
+
+.box3 {
+	border: solid 20px black;
+}
